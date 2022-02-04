@@ -11,10 +11,10 @@ function Landing({ data }) {
   const postEdges = data.allMarkdownRemark.edges;
   return (
     <Layout>
-      <Helmet title={config.siteTitle} />
-      <SEO />
-      <PostListing postEdges={postEdges} />
-      <BackgroundLogo />
+      {/* <Helmet title={config.siteTitle} /> */}
+      {/* <SEO /> */}
+      {/* <PostListing postEdges={postEdges} /> */}
+      {/* <BackgroundLogo /> */}
     </Layout>
   );
 }

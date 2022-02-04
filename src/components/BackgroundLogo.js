@@ -4,7 +4,7 @@ import logo from "../images/logo.jpg";
 
 const BackgroundLogo = () => (
   <div className="backgroundWrapper">
-    <img className="backgroundLogo" src={logo} alt="xo9 main logo" />
+    <img className="backgroundLogo" id="logo" src={logo} alt="xo9 main logo" />
   </div>
 );
 

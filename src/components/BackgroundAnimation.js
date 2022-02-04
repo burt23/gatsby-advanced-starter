@@ -11,7 +11,7 @@ const BackgroundAnimation = () => (
       left: 0,
       display: "block",
       zIndex: -1,
-      position: "absolute",
+      position: "absolute"
     }}
     width="100%"
     height="100%"

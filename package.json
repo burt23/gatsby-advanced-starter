@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Mike Torres <6453torres@gmail.com>",
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.2.4",
     "gatsby": "^3.8.1",
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-feed": "^3.8.0",

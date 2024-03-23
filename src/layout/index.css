@@ -24,6 +24,14 @@ body {
   min-width: 100vw;
 }
 
+ul {
+  text-decoration: none;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .layout-container {
   height: 100vh;
   width: 100vw;
@@ -35,6 +43,8 @@ body {
   top: 0;
   left: 0;
   position: absolute;
+  text-decoration-line: none;
+  text-decoration: none;
 }
 
 a {

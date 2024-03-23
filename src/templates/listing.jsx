@@ -14,7 +14,7 @@ function Listing({ data }) {
     <Layout>
       <Helmet title={config.siteTitle} />
       <SEO />
-      {/* <PostListing postEdges={postEdges} /> */}
+      <PostListing postEdges={postEdges} />
       <BackgroundLogo />
     </Layout>
   );

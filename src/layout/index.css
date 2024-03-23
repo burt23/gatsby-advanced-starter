@@ -63,12 +63,52 @@ a {
 .landing-post {
   flex: auto;
   z-index: 9;
+  outline: 0;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  min-width: 44vw;
+  transition: all 0.14s ease-out;
+  /* border: 10px solid #a7b7c7; */
+  /* background-image: linear-gradient(to right, #e052a0, #f15c41); */
+  cursor: pointer;
+  border-radius: 2px;
+  color: #ff7;
 }
 
-/* @media screen and (max-width: 588px) {
-  .layout-container {
+.landing-post:hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px, -4px);
+  background-image: linear-gradient(to right, #3ec7e0, #526bf4);
+}
+
+.landing-post:focus-visible {
+  outline-offset: 1px;
+}
+
+.landing-wrapper {
+  opacity: 0.8;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 588px) {
+  .landing-title {
+    font-size: 1.5rem !important;
+    padding: 0.25rem;
+    max-width: 100% !important;
+    flex: auto;
+    min-width: 50vw !important;
   }
-} */
+}
 
 .backgroundWrapper {
   position: absolute;
@@ -139,10 +179,8 @@ a {
   .backgroundLogo {
     max-width: 300px !important;
     max-height: 300px !important;
-    /* border: 10px solid gold; */
   }
 }
-/* backgroundLogo */
 
 .post-page-home-button {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
